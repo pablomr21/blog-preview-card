@@ -1,0 +1,63 @@
+/*Reset*/
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color:white ;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px black;
+}
+
+.container .article{
+  width: 100%;
+  border-radius: 20px;
+}
+.sm-title{
+background-color: hsl(47, 88%, 63%);
+font-size: 1rem;
+display: inline;
+font-weight: bold;
+padding: 3px;
+}
+
+.container h1{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* Hover*/
+.container h1:hover{
+   color:  hsl(47, 88%, 63%);
+   font-size: 1.2rem;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.parragraph{
+    color:hsl(0, 0%, 42%) ;
+}
+
+p{
+    margin-top: 0.5rem;
+}
+
+.name{ display: inline;
+}
+
+.icon{
+    display: inline;
+    width: 40px;
+    height: 40px;
+}
+
